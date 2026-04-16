@@ -16,6 +16,17 @@ This indicates that the model predicts student performance with an average error
 * Absences negatively impact student outcomes
 
 ---
+## 📊 Visualizations
+
+### Final Grade Distribution
+
+![Grade Distribution](images/grade_distribution.png)
+
+### Study Time vs Final Grade
+
+![Study Time vs Grade](images/study_vs_grade.png)
+
+---
 
 ## 🚀 Future Improvements
 
