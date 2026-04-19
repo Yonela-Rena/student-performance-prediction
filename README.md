@@ -20,11 +20,12 @@ This indicates that the model predicts student performance with an average error
 
 ### Final Grade Distribution
 
-![Grade Distribution](images/grade_distribution.png)
+![Grade Distribution](grade_distribution.png)
+
 
 ### Study Time vs Final Grade
 
-![Study Time vs Grade](images/study_vs_grade.png)
+![Study Time vs Grade](study_vs_grade.png)
 
 ---
 
