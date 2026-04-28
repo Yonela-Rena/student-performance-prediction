@@ -1,64 +1,37 @@
-# 🎓 Student Performance Prediction
+## 📈 Results
 
-## 📌 Project Overview
-This project uses Machine Learning (Linear Regression) to predict students’ final grades (G3) based on study habits, academic history, and personal factors.
+The model was trained using Linear Regression to predict student final grades.
 
-The goal is to understand which factors influence student performance and build a predictive model that estimates final grades with reasonable accuracy.
+* Mean Squared Error (MSE): 19.87
+* Root Mean Squared Error (RMSE): 4.46
 
----
-
-## 📂 Project Structure
-student-performance-prediction/
-│
-├── data/
-│   └── student_data.csv
-│
-├── notebook/
-│   ├── analysis.ipynb
-│   └── analysis_v2.ipynb
-│
-├── grade_distribution.png
-├── study_vs_grade.png
-└── README.md
+This indicates that the model predicts student performance with an average error of approximately ±4.5 marks.
 
 ---
 
-## 🛠️ Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+## 📊 Key Insights
+
+* Students with more past failures tend to have lower final grades
+* Increased study time generally improves performance
+* Absences negatively impact student outcomes
+
+---
+## 📊 Visualizations
+
+### Final Grade Distribution
+
+![Grade Distribution](grade_distribution.png)
+
+
+### Study Time vs Final Grade
+
+![Study Time vs Grade](study_vs_grade.png)
 
 ---
 
-## 📊 Dataset
-The dataset contains **395 student records** with **33 features**, including:
+## 🚀 Future Improvements
 
-- Demographics (age, gender, address)  
-- Family background  
-- Study habits (study time, failures)  
-- Attendance (absences)  
-- Academic performance (G1, G2, G3)  
-
----
-
-## 🧠 Features Used
-The model was trained using selected features that are most relevant to student performance:
-
-- Study time  
-- Number of past failures  
-- Absences  
-
-These features were chosen because they have a direct impact on academic outcomes.
-
----
-
-## ▶️ How to Run
-1. Clone the repository  
-2. Open the notebook in VS Code or Jupyter  
-3. Install required libraries:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
+* Use more features from the dataset
+* Apply advanced models (Random Forest, Gradient Boosting)
+* Perform feature engineering
+* Deploy the model as a web application
