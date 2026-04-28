@@ -35,3 +35,10 @@ This indicates that the model predicts student performance with an average error
 * Apply advanced models (Random Forest, Gradient Boosting)
 * Perform feature engineering
 * Deploy the model as a web application
+
+---
+## 📌 Conclusion
+
+This project demonstrates how machine learning can be used to analyze and predict student performance.
+
+While the Linear Regression model provides moderate accuracy, it highlights key factors affecting academic success and provides a strong baseline for more advanced models such as Random Forest.
