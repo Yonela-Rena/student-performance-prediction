@@ -8,7 +8,16 @@ The model was trained using Linear Regression to predict student final grades.
 This indicates that the model predicts student performance with an average error of approximately ±4.5 marks.
 
 ---
+## 🔄 Model Comparison
 
+| Model              | RMSE |
+|--------------------|------|
+| Linear Regression  | 4.46 |
+| Random Forest      | 4.34 |
+
+The Random Forest model performed slightly better than Linear Regression, reducing prediction error. This suggests that capturing non-linear relationships improves performance, although the improvement is modest.
+
+---
 ## 📊 Key Insights
 
 * Students with more past failures tend to have lower final grades
@@ -39,6 +48,8 @@ This indicates that the model predicts student performance with an average error
 ---
 ## 📌 Conclusion
 
-This project demonstrates how machine learning can be used to analyze and predict student performance.
+This project demonstrates how machine learning can be used to predict student performance based on academic and behavioral factors.
 
-While the Linear Regression model provides moderate accuracy, it highlights key factors affecting academic success and provides a strong baseline for more advanced models such as Random Forest.
+While Linear Regression provides a solid baseline, the Random Forest model achieved slightly better accuracy by capturing more complex patterns in the data.
+
+However, the improvement is modest, indicating that additional features and more advanced techniques may be needed for significantly better predictions.
