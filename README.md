@@ -37,7 +37,9 @@ The model was trained using Linear Regression to predict student final grades.
 * Mean Squared Error (MSE): 19.87
 * Root Mean Squared Error (RMSE): 4.46
 
-This indicates that the model predicts student performance with an average error of approximately ±4.5 marks.
+This indicates that the model predicts student performance with an average error of approximately ±4.5 marks.  
+
+The dataset is relatively small, which may limit model performance and generalization.
 
 ---
 ## 🔄 Model Comparison
